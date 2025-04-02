@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --Gray500: hsl(0, 0%, 42%);
+    --Gray950: hsl(0, 0%, 7%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin-block-end: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+body {
+    font-family: "Figtree", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    line-height: 1.5;
+    background-color: var(--Yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 1rem;
+}
+
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+h1, h2,
+h3, h4 {
+    text-wrap: balance;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+    border-radius: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+input, button,
+textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+:target {
+    scroll-margin-block: 5ex;
+}
+
+.container {
+    background-color: white;
+    max-width: 20rem;
+    border: 1px black solid;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    box-shadow: 0.32rem 0.5rem 0rem;
+}
+
+.Learning {
+    background-color: var(--Yellow);
+    padding: 0.25rem 0.75rem;
+    display: inline-flex;
+    border-radius: 0.2rem;
+}
+
+.avater-container {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.avater-container > img {
+    width: 2rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--Gray950);
+}
+
+h2:hover {
+    color: var(--Yellow);
+}
+
+p {
+    font-size: 1rem;
+    color: var(--Gray500);
+}
+
+.date {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--Gray950);
+}
+
+.name {
+    font-weight: 800;
+    color: var(--Gray950);
+    margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
