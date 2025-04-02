@@ -94,6 +94,12 @@ textarea:not([rows]) {
     border-radius: 0.2rem;
 }
 
+.Learning > p {
+    margin: 0;
+    color: var(--Gray950);
+    font-weight: 800;
+}
+
 .avater-container {
     margin-top: 1rem;
     display: flex;
