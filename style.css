@@ -37,7 +37,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;
     padding: 1rem;
 }
 
@@ -116,14 +115,13 @@ h2 {
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--Gray950);
-}
 
-h2:hover {
-    color: var(--Yellow);
+    &:hover {
+        color: var(--Yellow);
+    }
 }
 
 p {
-    font-size: 1rem;
     color: var(--Gray500);
 }
 
